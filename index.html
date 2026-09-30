@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bhavana - Resume</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #dbeafe, #f3e8ff);
+            color: #222;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #4f46e5, #7c3aed);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            margin-bottom: 8px;
+        }
+
+        .typing {
+            font-size: 20px;
+            font-weight: 500;
+            min-height: 30px;
+        }
+
+        .contact {
+            margin-top: 15px;
+            font-size: 15px;
+        }
+
+        /* Sections */
+        .content {
+            padding: 30px 40px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #4f46e5;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            font-size: 23px;
+        }
+
+        .section p {
+            font-size: 16px;
+        }
+
+        .education-card {
+            background: #f8f7ff;
+            border-left: 5px solid #6366f1;
+            padding: 18px;
+            border-radius: 8px;
+        }
+
+        .education-card h3 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        /* Skills */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #ede9fe;
+            color: #5b21b6;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        /* List */
+        ul {
+            padding-left: 22px;
+        }
+
+        li {
+            margin-bottom: 7px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            background: #f3f4f6;
+            padding: 20px;
+            color: #555;
+        }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #4f46e5;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #7c3aed;
+            transform: scale(1.05);
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+                margin: 20px auto;
+            }
+
+            .content {
+                padding: 25px 20px;
+            }
+
+            .header h1 {
+                font-size: 32px;
+            }
+
+            .typing {
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+            <h1>BHAVANA</h1>
+
+            <!-- Typing / Playing Text -->
+            <div class="typing" id="typing"></div>
+
+            <div class="contact">
+                📍 Yaragattihalli, Karnataka <br>
+                📞 93806089.. <br>
+                ✉️ bhavanabasavaraj****@gmail.com
+            </div>
+
+            <a href="#about" class="btn">View My Resume</a>
+        </header>
+
+
+        <main class="content">
+
+            <!-- About -->
+            <section class="section" id="about">
+                <h2>About Me</h2>
+
+                <p>
+                    I am Bhavana from Yaragattihalli. I am currently pursuing
+                    my 2nd year of Bachelor of Engineering in Computer Science
+                    and Engineering at Jain Institute of Technology, Davanagere.
+                    I am interested in learning new technologies and developing
+                    my technical and communication skills.
+                </p>
+            </section>
+
+
+            <!-- Career Objective -->
+            <section class="section">
+                <h2>Career Objective</h2>
+
+                <p>
+                    Motivated and enthusiastic Computer Science Engineering
+                    student seeking opportunities to develop technical skills,
+                    gain practical experience, and contribute to meaningful
+                    projects. I am eager to learn new technologies and build
+                    a successful career in the field of Computer Science.
+                </p>
+            </section>
+
+
+            <!-- Education -->
+            <section class="section">
+                <h2>Education</h2>
+
+                <div class="education-card">
+                    <h3>Bachelor of Engineering - Computer Science and Engineering</h3>
+
+                    <p>
+                        <strong>Jain Institute of Technology, Davanagere</strong>
+                    </p>
+
+                    <p>
+                        2nd Year - Currently Pursuing
+                    </p>
+                </div>
+            </section>
+
+
+            <!-- Skills -->
+            <section class="section">
+                <h2>Skills</h2>
+
+                <div class="skills">
+                    <span class="skill">Reading</span>
+                    <span class="skill">Writing</span>
+                    <span class="skill">Communication</span>
+                    <span class="skill">Teamwork</span>
+                    <span class="skill">Quick Learning</span>
+                    <span class="skill">Problem Solving</span>
+                </div>
+            </section>
+
+
+            <!-- Hobbies -->
+            <section class="section">
+                <h2>Hobbies</h2>
+
+                <ul>
+                    <li>📚 Reading</li>
+                    <li>✍️ Writing</li>
+                </ul>
+            </section>
+
+
+            <!-- Strengths -->
+            <section class="section">
+                <h2>Strengths</h2>
+
+                <ul>
+                    <li>Quick learner</li>
+                    <li>Positive attitude</li>
+                    <li>Good reading and writing skills</li>
+                    <li>Willingness to learn new things</li>
+                    <li>Teamwork</li>
+                </ul>
+            </section>
+
+
+            <!-- Weakness -->
+            <section class="section">
+                <h2>Weakness</h2>
+
+                <p>
+                    I sometimes feel nervous while speaking in front of a
+                    large group. I am working on improving my communication
+                    and presentation skills by participating more actively
+                    in discussions and presentations.
+                </p>
+            </section>
+
+
+            <!-- Languages -->
+            <section class="section">
+                <h2>Languages</h2>
+
+                <ul>
+                    <li>Kannada</li>
+                    <li>English</li>
+                </ul>
+            </section>
+
+        </main>
+
+
+        <footer class="footer">
+            <p>© 2026 Bhavana | Computer Science Engineering Student</p>
+        </footer>
+
+    </div>
+
+
+    <!-- Typing Animation -->
+    <script>
+
+        const texts = [
+            "Computer Science Engineering Student",
+            "2nd Year Engineering Student",
+            "Future Software Developer",
+            "Learning • Growing • Creating"
+        ];
+
+        let textIndex = 0;
+        let charIndex = 0;
+        let deleting = false;
+
+        function typeEffect() {
+
+            const typingElement = document.getElementById("typing");
+            const currentText = texts[textIndex];
+
+            if (!deleting) {
+
+                typingElement.textContent =
+                    currentText.substring(0, charIndex + 1);
+
+                charIndex++;
+
+                if (charIndex === currentText.length) {
+                    deleting = true;
+
+                    setTimeout(typeEffect, 1500);
+                    return;
+                }
+
+            } else {
+
+                typingElement.textContent =
+                    currentText.substring(0, charIndex - 1);
+
+                charIndex--;
+
+                if (charIndex === 0) {
+                    deleting = false;
+
+                    textIndex++;
+
+                    if (textIndex === texts.length) {
+                        textIndex = 0;
+                    }
+                }
+            }
+
+            setTimeout(typeEffect, deleting ? 50 : 100);
+        }
+
+        typeEffect();
+
+    </script>
+
+</body>
+</html>
